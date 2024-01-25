@@ -1,0 +1,50 @@
+.app-container {
+  display: flex;
+  min-height: 95vh;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+/* Button.css */
+.button {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4caf50;
+  color: white;
+  cursor: move;
+}
+
+/* Canvas.css */
+.canvas {
+  max-width: calc(100% - 200px);
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #dadada80;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.canvas-button {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #2196f3;
+  color: white;
+}
+
+.canvas > h6{
+  font-weight: 300;
+}
+
+.canvas .MuiTypography-root{
+  max-width: 85%;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+}
